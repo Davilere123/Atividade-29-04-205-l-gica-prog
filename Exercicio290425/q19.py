@@ -1,0 +1,12 @@
+for c in range(1, 10):
+    print("Tabuada de {}".format(c))
+    print("{} * 1 = {}".format(c, c * 1))
+    print("{} * 2 = {}".format(c, c * 2))
+    print("{} * 3 = {}".format(c, c * 3))
+    print("{} * 4 = {}".format(c, c * 4))
+    print("{} * 5 = {}".format(c, c * 5))
+    print("{} * 6 = {}".format(c, c * 6))
+    print("{} * 7 = {}".format(c, c * 7))
+    print("{} * 8 = {}".format(c, c * 8))
+    print("{} * 9 = {}".format(c, c * 9))
+    print("{} * 10 = {}".format(c, c * 10))
