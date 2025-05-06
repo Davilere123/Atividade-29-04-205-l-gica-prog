@@ -1,7 +1,16 @@
-ano = 2025
+import datetime
+
 idade = int(input("Digite o ano em que você nasceu: "))
+ano = datetime.date(idade, 1, 1)
+hoje = datetime.date.today()
 
-calc = ano - idade
+calc = (hoje - ano).days
 
-print("Você tem {} ano(s), {} mese(s)".format(calc))
+anos = calc // 365
+resto = calc % 365
+meses = resto // 30
+dias = resto % 30
+
+
+print("Você tem {} ano(s), {} mese(s) e {} dia(s)".format(anos, meses, dias))
 

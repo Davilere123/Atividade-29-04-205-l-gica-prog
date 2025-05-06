@@ -1,4 +1,4 @@
-for c in range(1, 10):
+for c in range(1, 11):
     print("Tabuada de {}".format(c))
     print("{} * 1 = {}".format(c, c * 1))
     print("{} * 2 = {}".format(c, c * 2))
